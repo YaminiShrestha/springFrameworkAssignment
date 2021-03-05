@@ -9,21 +9,19 @@ import org.springframework.stereotype.Component;
 public class Circle implements IPolygon {
     private double radius;
 
-    public Circle(double radius) {
-        this.radius = radius;
+    public double getRadius() {
+        return radius;
     }
 
     public void setRadius(double radius) {
+
         this.radius = radius;
     }
-    /*
-     * This method get the area of circle
-     * @param radius main input of the radius of circle
-     * @return the area of circle
-     */
+
+    // This method get the area of circle
     @Override
     public void getArea() {
-        System.out.println(3.14 * radius * radius);
+        System.out.println("Area of circle is " + 3.14 * radius * radius);
 
     }
 }

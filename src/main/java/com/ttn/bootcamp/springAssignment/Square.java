@@ -14,14 +14,11 @@ public class Square implements IPolygon {
     public void setSide(double side) {
         this.side = side;
     }
-    /*
-     * This method give the area of square
-     * @param side main input of the side of square
-     * @return area of the square
-     */
+
+    //This method give the area of square
     @Override
     public void getArea() {
-       System.out.println(side * side);
+        System.out.println("Area of square is " + side * side);
     }
 
 

@@ -11,6 +11,7 @@ public class Polygon {
     private IPolygon iPolygon;
 
     public IPolygon getiPolygon() {
+
         return iPolygon;
     }
 
@@ -18,16 +19,11 @@ public class Polygon {
         this.iPolygon = iPolygon;
     }
 
-    /*
-     * this method calculate the area of given polygon
-     * @param number main input for calculating area
-     * @return area of the specified polygon
-     */
+    //   this method calculate the area of given polygon
     public void calculateArea() {
-         iPolygon.getArea();
+        iPolygon.getArea();
 
     }
-
 
 
 }
